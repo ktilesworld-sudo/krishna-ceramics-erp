@@ -147,3 +147,170 @@ font-size:13px;
 line-height:1.7;
 
 }
+/* ==========================================================
+   Dashboard
+========================================================== */
+
+#dashboard{
+
+padding:20px;
+
+}
+
+.welcome-card{
+
+background:linear-gradient(
+135deg,
+#17375E,
+#27548A
+);
+
+color:#fff;
+
+border-radius:20px;
+
+padding:22px;
+
+box-shadow:var(--shadow);
+
+margin-bottom:24px;
+
+}
+
+.welcome-card h2{
+
+font-size:24px;
+
+margin-bottom:10px;
+
+}
+
+.welcome-card p{
+
+font-size:14px;
+
+opacity:.92;
+
+line-height:1.6;
+
+}
+
+.dashboard-grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:16px;
+
+}
+
+.card{
+
+background:#fff;
+
+border-radius:18px;
+
+padding:22px 16px;
+
+text-align:center;
+
+box-shadow:var(--shadow);
+
+cursor:pointer;
+
+transition:.30s;
+
+border:1px solid #EEF2F7;
+
+}
+
+.card:hover{
+
+transform:translateY(-6px);
+
+}
+
+.card span{
+
+font-size:34px;
+
+display:block;
+
+margin-bottom:12px;
+
+}
+
+.card h3{
+
+font-size:15px;
+
+font-weight:700;
+
+color:var(--text);
+
+}
+
+footer{
+
+margin-top:30px;
+
+padding:18px;
+
+text-align:center;
+
+font-size:13px;
+
+color:var(--text-light);
+
+background:#fff;
+
+border-top:1px solid #E5E7EB;
+
+}
+
+/* ==========================================================
+   Mobile
+========================================================== */
+
+@media(max-width:480px){
+
+.app{
+
+width:100%;
+
+box-shadow:none;
+
+}
+
+.header{
+
+padding:18px;
+
+}
+
+.company-info h1{
+
+font-size:16px;
+
+}
+
+.company-info p{
+
+font-size:12px;
+
+}
+
+.card{
+
+padding:18px 12px;
+
+}
+
+.card span{
+
+font-size:30px;
+
+}
+
+} 
